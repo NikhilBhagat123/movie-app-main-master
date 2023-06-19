@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const session = require('express-session');
 const mongoDbSession = require('connect-mongodb-session')(session)
-//const bcrypt = require('bcrypt')
+const bcrypt = require('bcrypt')
 const app = express();
 
 
